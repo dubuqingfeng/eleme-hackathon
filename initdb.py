@@ -16,7 +16,7 @@ def main():
          db=os.getenv("DB_NAME", "eleme"))
     cur = conn.cursor()
     # 创建数据表SQL语句
-    sql = """CREATE TABLE `order` IF EXISTS `order` (
+    sql = """CREATE TABLE `order` IF NOT EXISTS `order` (
   `order_id` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `user_id` int(10) unsigned,
   `total` int(10) unsigned NOT NULL DEFAULT '0',

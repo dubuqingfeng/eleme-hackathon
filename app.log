@@ -2842,3 +2842,16 @@ ERROR:tornado.application:Future exception was never retrieved: Traceback (most 
     result = func(*args, **kwargs)
 TypeError: execute() takes at least 2 arguments (1 given)
 WARNING:tornado.access:403 POST /orders (127.0.0.1) 10.38ms
+INFO:hackathon.launcher:app launching...
+INFO:root:activated py2 virtualenv
+INFO:hackathon.launcher:execute script: pip install -r requirements.txt
+Requirement already satisfied (use --upgrade to upgrade): tornado in /srv/virtualenvs/py2/lib/python2.7/site-packages (from -r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): Tornado-MySQL in /srv/virtualenvs/py2/lib/python2.7/site-packages (from -r requirements.txt (line 2))
+Requirement already satisfied (use --upgrade to upgrade): tornado-redis in /srv/virtualenvs/py2/lib/python2.7/site-packages (from -r requirements.txt (line 3))
+Requirement already satisfied (use --upgrade to upgrade): certifi in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): backports-abc>=0.4 in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): backports.ssl-match-hostname in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): singledispatch in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): six in /srv/virtualenvs/py2/lib/python2.7/site-packages (from singledispatch->tornado->-r requirements.txt (line 1))
+INFO:hackathon.launcher:execute script: python initdb.py
+INFO:hackathon.launcher:execute script: python app.py

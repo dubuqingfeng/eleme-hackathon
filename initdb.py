@@ -2,6 +2,7 @@
 # coding=utf-8
 
 from __future__ import print_function
+import os
 
 from tornado import ioloop, gen
 import tornado_mysql
@@ -10,7 +11,9 @@ __author__ = 'qingfeng'
 
 @gen.coroutine
 def main():
-    conn = yield tornado_mysql.connect(host='127.0.0.1', port=3306, user='root', passwd='', db='mysql')
+    conn = yield tornado_mysql.connect(host=os.getenv("DB_HOST", "localhost"), port=int(os.getenv("DB_PORT", "3306")),
+         user=os.getenv("DB_USER", "root"), passwd=os.getenv("DB_PASS", "toor"),
+         db=os.getenv("DB_NAME", "eleme"))
     cur = conn.cursor()
     yield cur.execute("DROP TABLE IF EXISTS `order`")
     # 创建数据表SQL语句

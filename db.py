@@ -17,5 +17,4 @@ POOL = pools.Pool(
 
 )
 REDIS_CONNECTION_POOL = tornadoredis.ConnectionPool(max_connections=500,
-                                              wait_for_available=True)
-
+                                                    wait_for_available=True)

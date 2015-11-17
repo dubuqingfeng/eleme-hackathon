@@ -238,7 +238,7 @@ class OrderHandler(UserAPIHandler):
                                             "INSERT INTO `order_item` (order_id, food_id, count) VALUES (%s,%s,%s)" % (
                                                 order_item_id["order_id"], key, order[1][key]))
                                         yield db.POOL.execute("UPDATE `food` SET stock = stock - %d where id = '%s'" % (
-                                        int(order[1][key]), key))
+                                            int(order[1][key]), key))
                                         order_item_item.close()
                                         self.set_status(200)
                                         self.finish(json.dumps({'id': str(order_item_id["order_id"])}))

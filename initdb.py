@@ -16,7 +16,7 @@ def main():
          db=os.getenv("DB_NAME", "eleme"))
     cur = conn.cursor()
     # 创建数据表SQL语句
-    sql = """CREATE TABLE `order` IF NOT EXISTS `order` (
+    sql = """CREATE TABLE IF NOT EXISTS `order` (
   `order_id` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `user_id` int(10) unsigned,
   `total` int(10) unsigned NOT NULL DEFAULT '0',
@@ -24,7 +24,7 @@ def main():
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;"""
     yield cur.execute(sql)
     # 创建数据表SQL语句
-    sql = """CREATE TABLE `order_item` IF NOT EXISTS `order_item` (
+    sql = """CREATE TABLE IF NOT EXISTS `order_item` (
   `order_item_id` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `order_id` int(10) unsigned,
   `food_id` int(10) unsigned NOT NULL DEFAULT '0',

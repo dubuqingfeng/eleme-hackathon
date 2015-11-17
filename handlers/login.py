@@ -4,7 +4,6 @@ import hmac
 import json
 import uuid
 from tornado import gen
-from tornado_json import schema
 import tornadoredis
 from base import APIHandler, tornado
 import db

@@ -14,7 +14,7 @@ def make_order(url):
     def _f(token, _items=None):
         res = jpost(url + "/carts", token)
         cart_id = res.json()["cart_id"]
-        jpatch(url + "/carts/%s" % cart_id, token, _items or items)
+        res2 = jpatch(url + "/carts/%s" % cart_id, token, _items or items)
         return jpost(url + "/orders", token, {"cart_id": cart_id})
     return _f
 

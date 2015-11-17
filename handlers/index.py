@@ -215,7 +215,6 @@ class OrderHandler(UserAPIHandler):
                             if order[0]:
                                 cur = yield db.POOL.execute(
                                     "INSERT INTO `order` (user_id, total) VALUES (%d,%d)" % (user_id, int(order[0])))
-                                insert_result = cur.execute()
                                 cur.close()
                                 order_item = yield db.POOL.execute(
                                     "SELECT order_id FROM `order` where user_id = '%s' limit 1" % user_id)
@@ -238,7 +237,6 @@ class OrderHandler(UserAPIHandler):
                                         order_item_item = yield db.POOL.execute(
                                             "INSERT INTO `order_item` (order_id, food_id, count) VALUES (%s,%s,%s)" % (
                                                 order_item_id["order_id"], key, order[1][key]))
-                                        insert_item_result = order_item_item.execute()
                                         yield db.POOL.execute("UPDATE `food` SET stock = stock - %d where id = '%s'" % (
                                         int(order[1][key]), key))
                                         order_item_item.close()

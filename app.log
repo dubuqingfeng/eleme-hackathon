@@ -15,3 +15,2385 @@ INFO:hackathon.launcher:execute script: python initdb.py
 /srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py:294: Warning: Table 'order_item' already exists
   Runner(result, future, yielded)
 INFO:hackathon.launcher:execute script: python app.py
+INFO:hackathon.launcher:app launching...
+INFO:root:activated py2 virtualenv
+INFO:hackathon.launcher:execute script: pip install -r requirements.txt
+Requirement already satisfied (use --upgrade to upgrade): tornado in /srv/virtualenvs/py2/lib/python2.7/site-packages (from -r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): Tornado-MySQL in /srv/virtualenvs/py2/lib/python2.7/site-packages (from -r requirements.txt (line 2))
+Requirement already satisfied (use --upgrade to upgrade): tornado-redis in /srv/virtualenvs/py2/lib/python2.7/site-packages (from -r requirements.txt (line 3))
+Requirement already satisfied (use --upgrade to upgrade): certifi in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): backports-abc>=0.4 in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): backports.ssl-match-hostname in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): singledispatch in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): six in /srv/virtualenvs/py2/lib/python2.7/site-packages (from singledispatch->tornado->-r requirements.txt (line 1))
+INFO:hackathon.launcher:execute script: python initdb.py
+/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/stack_context.py:275: Warning: Table 'order' already exists
+  return fn(*args, **kwargs)
+/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/stack_context.py:275: Warning: Table 'order_item' already exists
+  return fn(*args, **kwargs)
+INFO:hackathon.launcher:execute script: python app.py
+INFO:hackathon.launcher:app launching...
+INFO:root:activated py2 virtualenv
+INFO:hackathon.launcher:execute script: pip install -r requirements.txt
+Requirement already satisfied (use --upgrade to upgrade): tornado in /srv/virtualenvs/py2/lib/python2.7/site-packages (from -r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): Tornado-MySQL in /srv/virtualenvs/py2/lib/python2.7/site-packages (from -r requirements.txt (line 2))
+Requirement already satisfied (use --upgrade to upgrade): tornado-redis in /srv/virtualenvs/py2/lib/python2.7/site-packages (from -r requirements.txt (line 3))
+Requirement already satisfied (use --upgrade to upgrade): certifi in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): backports-abc>=0.4 in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): backports.ssl-match-hostname in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): singledispatch in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): six in /srv/virtualenvs/py2/lib/python2.7/site-packages (from singledispatch->tornado->-r requirements.txt (line 1))
+INFO:hackathon.launcher:execute script: python initdb.py
+/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py:294: Warning: Table 'order' already exists
+  Runner(result, future, yielded)
+/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py:294: Warning: Table 'order_item' already exists
+  Runner(result, future, yielded)
+INFO:hackathon.launcher:execute script: python app.py
+WARNING:tornado.access:400 POST /login (127.0.0.1) 1.88ms
+WARNING:tornado.access:400 POST /login (127.0.0.1) 3.22ms
+WARNING:tornado.access:401 GET /foods (127.0.0.1) 0.28ms
+WARNING:tornado.access:403 POST /login (127.0.0.1) 4.94ms
+WARNING:tornado.access:400 POST /login (127.0.0.1) 2.53ms
+WARNING:tornado.access:404 PATCH /carts/-1 (127.0.0.1) 1.80ms
+WARNING:tornado.access:403 PATCH /carts/42fce8ed2e5884059e4ca4b5aee33e6f (127.0.0.1) 4.95ms
+WARNING:tornado.access:404 PATCH /carts/24dfacfc0d456f3b97176f8e47908efe (127.0.0.1) 5.23ms
+WARNING:tornado.access:403 POST /orders (127.0.0.1) 3.22ms
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+INFO:hackathon.launcher:app launching...
+INFO:root:activated py2 virtualenv
+INFO:hackathon.launcher:execute script: pip install -r requirements.txt
+Requirement already satisfied (use --upgrade to upgrade): tornado in /srv/virtualenvs/py2/lib/python2.7/site-packages (from -r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): Tornado-MySQL in /srv/virtualenvs/py2/lib/python2.7/site-packages (from -r requirements.txt (line 2))
+Requirement already satisfied (use --upgrade to upgrade): tornado-redis in /srv/virtualenvs/py2/lib/python2.7/site-packages (from -r requirements.txt (line 3))
+Requirement already satisfied (use --upgrade to upgrade): certifi in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): backports-abc>=0.4 in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): backports.ssl-match-hostname in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): singledispatch in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): six in /srv/virtualenvs/py2/lib/python2.7/site-packages (from singledispatch->tornado->-r requirements.txt (line 1))
+INFO:hackathon.launcher:execute script: python initdb.py
+/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py:294: Warning: Table 'order' already exists
+  Runner(result, future, yielded)
+/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py:294: Warning: Table 'order_item' already exists
+  Runner(result, future, yielded)
+INFO:hackathon.launcher:execute script: python app.py
+WARNING:tornado.access:400 POST /login (127.0.0.1) 1.35ms
+WARNING:tornado.access:400 POST /login (127.0.0.1) 1.53ms
+WARNING:tornado.access:401 GET /foods (127.0.0.1) 1.74ms
+WARNING:tornado.access:403 POST /login (127.0.0.1) 1.85ms
+WARNING:tornado.access:400 POST /login (127.0.0.1) 0.50ms
+WARNING:tornado.access:404 PATCH /carts/-1 (127.0.0.1) 1.69ms
+WARNING:tornado.access:403 PATCH /carts/eb7f820a4668e8d0b1b0ebf88e06dce5 (127.0.0.1) 1.49ms
+WARNING:tornado.access:404 PATCH /carts/7c8d5d3e1fc15428655b104e3719224e (127.0.0.1) 4.96ms
+WARNING:tornado.access:403 POST /orders (127.0.0.1) 5.72ms
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+ERROR:tornado.application:Future exception was never retrieved: Traceback (most recent call last):
+  File "/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py", line 267, in wrapper
+    result = func(*args, **kwargs)
+TypeError: execute() takes at least 2 arguments (1 given)
+WARNING:tornado.access:403 POST /orders (127.0.0.1) 9.18ms
+INFO:hackathon.launcher:app launching...
+INFO:root:activated py2 virtualenv
+INFO:hackathon.launcher:execute script: pip install -r requirements.txt
+Requirement already satisfied (use --upgrade to upgrade): tornado in /srv/virtualenvs/py2/lib/python2.7/site-packages (from -r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): Tornado-MySQL in /srv/virtualenvs/py2/lib/python2.7/site-packages (from -r requirements.txt (line 2))
+Requirement already satisfied (use --upgrade to upgrade): tornado-redis in /srv/virtualenvs/py2/lib/python2.7/site-packages (from -r requirements.txt (line 3))
+Requirement already satisfied (use --upgrade to upgrade): certifi in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): backports-abc>=0.4 in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): backports.ssl-match-hostname in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): singledispatch in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): six in /srv/virtualenvs/py2/lib/python2.7/site-packages (from singledispatch->tornado->-r requirements.txt (line 1))
+INFO:hackathon.launcher:execute script: python initdb.py
+/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py:294: Warning: Table 'order' already exists
+  Runner(result, future, yielded)
+/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py:294: Warning: Table 'order_item' already exists
+  Runner(result, future, yielded)
+INFO:hackathon.launcher:execute script: python app.py
+WARNING:tornado.access:400 POST /login (127.0.0.1) 0.30ms
+WARNING:tornado.access:400 POST /login (127.0.0.1) 0.35ms
+WARNING:tornado.access:401 GET /foods (127.0.0.1) 0.27ms
+WARNING:tornado.access:403 POST /login (127.0.0.1) 2.58ms
+WARNING:tornado.access:400 POST /login (127.0.0.1) 1.56ms
+WARNING:tornado.access:404 PATCH /carts/-1 (127.0.0.1) 4.34ms
+WARNING:tornado.access:403 PATCH /carts/9d537084255908cd9012b6f02334e0c3 (127.0.0.1) 5.19ms
+WARNING:tornado.access:404 PATCH /carts/1ecc84f8e3f42dbab8f09c983503da6b (127.0.0.1) 6.28ms
+WARNING:tornado.access:403 POST /orders (127.0.0.1) 4.98ms
+WARNING:tornado.access:403 POST /orders (127.0.0.1) 27.16ms
+INFO:hackathon.launcher:app launching...
+INFO:root:activated py2 virtualenv
+INFO:hackathon.launcher:execute script: pip install -r requirements.txt
+Requirement already satisfied (use --upgrade to upgrade): tornado in /srv/virtualenvs/py2/lib/python2.7/site-packages (from -r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): Tornado-MySQL in /srv/virtualenvs/py2/lib/python2.7/site-packages (from -r requirements.txt (line 2))
+Requirement already satisfied (use --upgrade to upgrade): tornado-redis in /srv/virtualenvs/py2/lib/python2.7/site-packages (from -r requirements.txt (line 3))
+Requirement already satisfied (use --upgrade to upgrade): certifi in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): backports-abc>=0.4 in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): backports.ssl-match-hostname in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): singledispatch in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): six in /srv/virtualenvs/py2/lib/python2.7/site-packages (from singledispatch->tornado->-r requirements.txt (line 1))
+INFO:hackathon.launcher:execute script: python initdb.py
+/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py:294: Warning: Table 'order' already exists
+  Runner(result, future, yielded)
+/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py:294: Warning: Table 'order_item' already exists
+  Runner(result, future, yielded)
+INFO:hackathon.launcher:execute script: python app.py

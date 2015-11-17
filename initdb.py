@@ -15,18 +15,16 @@ def main():
          user=os.getenv("DB_USER", "root"), passwd=os.getenv("DB_PASS", "toor"),
          db=os.getenv("DB_NAME", "eleme"))
     cur = conn.cursor()
-    yield cur.execute("DROP TABLE IF EXISTS `order`")
     # 创建数据表SQL语句
-    sql = """CREATE TABLE `order` (
+    sql = """CREATE TABLE `order` IF EXISTS `order` (
   `order_id` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `user_id` int(10) unsigned,
   `total` int(10) unsigned NOT NULL DEFAULT '0',
   PRIMARY KEY (`order_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;"""
     yield cur.execute(sql)
-    yield cur.execute("DROP TABLE IF EXISTS `order_item`")
     # 创建数据表SQL语句
-    sql = """CREATE TABLE `order_item` (
+    sql = """CREATE TABLE `order_item` IF NOT EXISTS `order_item` (
   `order_item_id` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `order_id` int(10) unsigned,
   `food_id` int(10) unsigned NOT NULL DEFAULT '0',

@@ -3,6 +3,6 @@
 __author__ = 'qingfeng'
 
 settings = {
-    "debug": True,
+    "debug": False,
     "cookie_secret": "61oETzKXQAGaYdkL5gEmGeJJFuYh7EQnp2XdTP1o/Vo=",
 }

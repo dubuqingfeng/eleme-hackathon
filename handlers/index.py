@@ -3,6 +3,8 @@
 import hmac
 import json
 import uuid
+import time
+import sys
 from tornado import gen
 import tornadoredis
 from base import BaseHandler, APIHandler, UserAPIHandler, tornado, authenticate
@@ -139,6 +141,7 @@ class OrderHandler(UserAPIHandler):
         token = self.request.headers.get("token")
         c = tornadoredis.Client(connection_pool=db.REDIS_CONNECTION_POOL)
         user_id = yield gen.Task(c.zscore, 'user:token:list', token)
+        c.disconnect()
         if user_id is None:
             self.set_status(401)
             self.finish(json.dumps({'code': "INVALID_ACCESS_TOKEN", 'message': u'无效的令牌'}))
@@ -163,7 +166,6 @@ class OrderHandler(UserAPIHandler):
                 #
                 self.set_status(200)
                 self.finish(json.dumps([]))
-        c.disconnect()
 
     @authenticate
     @gen.coroutine
@@ -213,20 +215,11 @@ class OrderHandler(UserAPIHandler):
                                 pipe.hgetall("cart:%s" % data["cart_id"])
                                 order = yield tornado.gen.Task(pipe.execute)
                             if order[0]:
-                                cur = yield db.POOL.execute(
-                                    "INSERT INTO `order` (user_id, total) VALUES (%d,%d)" % (user_id, int(order[0])))
-                                cur.close()
-                                order_item = yield db.POOL.execute(
-                                    "SELECT order_id FROM `order` where user_id = '%s' limit 1" % user_id)
-                                order_item_id = order_item.fetchone()
-                                order_item.close()
+                                order_id = None
                                 del order[1]["total"]
                                 del order[1]["user_id"]
                                 del order[1]["total_items"]
-                                key = order[1].keys()
-                                rowstr = ''
-                                order_item_item = None
-                                for key in order[1].keys():
+                                for key in order[1]:
                                     food_item = yield db.POOL.execute(
                                         "SELECT stock FROM `food` where id = '%s' limit 1" % key)
                                     food_item_result = food_item.fetchone()
@@ -234,15 +227,24 @@ class OrderHandler(UserAPIHandler):
                                         self.set_status(403)
                                         self.finish(json.dumps({'code': "FOOD_OUT_OF_STOCK", 'message': u'食物库存不足'}))
                                     else:
+                                        cur = yield db.POOL.execute(
+                                            "INSERT INTO `order` (user_id, total) VALUES (%d,%d)" % (user_id, int(order[0])))
+                                        cur.close()
+                                        order_item = yield db.POOL.execute(
+                                            "SELECT order_id FROM `order` where user_id = '%s' limit 1" % user_id)
+                                        order_item_id = order_item.fetchone()
+                                        order_id = str(order_item_id["order_id"])
+                                        order_item.close()
                                         order_item_item = yield db.POOL.execute(
-                                            "INSERT INTO `order_item` (order_id, food_id, count) VALUES (%s,%s,%s)" % (
-                                                order_item_id["order_id"], key, order[1][key]))
+                                            "INSERT INTO `order_item` (order_id, food_id, count) VALUES (%d,%d,%d)" % (
+                                                int(order_item_id["order_id"]), int(key), int(order[1][key])))
                                         yield db.POOL.execute("UPDATE `food` SET stock = stock - %d where id = '%s'" % (
                                             int(order[1][key]), key))
                                         order_item_item.close()
-                                        self.set_status(200)
-                                        self.finish(json.dumps({'id': str(order_item_id["order_id"])}))
                                     food_item.close()
+                                if order_id is not None:
+                                    self.set_status(200)
+                                    self.finish(json.dumps({'id': order_id}))
                             else:
                                 # 购物车无内容
                                 self.set_status(200)
@@ -260,6 +262,7 @@ class AdminOrderHandler(UserAPIHandler):
         token = self.request.headers.get("token")
         c = tornadoredis.Client(connection_pool=db.REDIS_CONNECTION_POOL)
         user_id = yield gen.Task(c.zscore, 'user:token:list', token)
+        c.disconnect()
         if user_id is None:
             self.set_status(401)
             self.finish(json.dumps({'code': "INVALID_ACCESS_TOKEN", 'message': u'无效的令牌'}))
@@ -280,4 +283,4 @@ class AdminOrderHandler(UserAPIHandler):
                 result_list.append(result)
             self.set_status(200)
             self.finish(json.dumps(result_list))
-        c.disconnect()
+

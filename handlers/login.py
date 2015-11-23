@@ -46,7 +46,7 @@ class LoginHandler(APIHandler):
                         token = hmac.new(str(user_id)).hexdigest()
                         c = tornadoredis.Client(connection_pool=db.REDIS_CONNECTION_POOL)
                         res = yield gen.Task(c.zrangebyscore, 'user:token:list', user_id, user_id)
-                        if res:
+                        if res is not None:
                             yield gen.Task(c.zremrangebyscore, "user:token:list", user_id, user_id)
                         with c.pipeline() as pipe:
                             pipe.zadd('user:token:list', user_id, token)

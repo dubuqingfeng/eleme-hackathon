@@ -93,3 +93,585 @@ INFO:hackathon.launcher:execute script: python initdb.py
 /srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py:294: Warning: Table 'order_item' already exists
   Runner(result, future, yielded)
 INFO:hackathon.launcher:execute script: python app.py
+INFO:hackathon.launcher:app launching...
+INFO:root:activated py2 virtualenv
+INFO:hackathon.launcher:execute script: pip install -r requirements.txt
+Requirement already satisfied (use --upgrade to upgrade): tornado in /srv/virtualenvs/py2/lib/python2.7/site-packages (from -r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): Tornado-MySQL in /srv/virtualenvs/py2/lib/python2.7/site-packages (from -r requirements.txt (line 2))
+Requirement already satisfied (use --upgrade to upgrade): tornado-redis in /srv/virtualenvs/py2/lib/python2.7/site-packages (from -r requirements.txt (line 3))
+Requirement already satisfied (use --upgrade to upgrade): certifi in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): backports-abc>=0.4 in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): backports.ssl-match-hostname in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): singledispatch in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): six in /srv/virtualenvs/py2/lib/python2.7/site-packages (from singledispatch->tornado->-r requirements.txt (line 1))
+INFO:hackathon.launcher:execute script: python initdb.py
+/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py:294: Warning: Table 'order' already exists
+  Runner(result, future, yielded)
+/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py:294: Warning: Table 'order_item' already exists
+  Runner(result, future, yielded)
+INFO:hackathon.launcher:execute script: python app.py
+INFO:hackathon.launcher:app launching...
+INFO:root:activated py2 virtualenv
+INFO:hackathon.launcher:execute script: pip install -r requirements.txt
+Requirement already satisfied (use --upgrade to upgrade): tornado in /srv/virtualenvs/py2/lib/python2.7/site-packages (from -r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): Tornado-MySQL in /srv/virtualenvs/py2/lib/python2.7/site-packages (from -r requirements.txt (line 2))
+Requirement already satisfied (use --upgrade to upgrade): tornado-redis in /srv/virtualenvs/py2/lib/python2.7/site-packages (from -r requirements.txt (line 3))
+Requirement already satisfied (use --upgrade to upgrade): certifi in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): backports-abc>=0.4 in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): backports.ssl-match-hostname in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): singledispatch in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): six in /srv/virtualenvs/py2/lib/python2.7/site-packages (from singledispatch->tornado->-r requirements.txt (line 1))
+INFO:hackathon.launcher:execute script: python initdb.py
+/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py:294: Warning: Table 'order' already exists
+  Runner(result, future, yielded)
+/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py:294: Warning: Table 'order_item' already exists
+  Runner(result, future, yielded)
+INFO:hackathon.launcher:execute script: python app.py
+INFO:hackathon.launcher:app launching...
+INFO:root:activated py2 virtualenv
+INFO:hackathon.launcher:execute script: pip install -r requirements.txt
+Requirement already satisfied (use --upgrade to upgrade): tornado in /srv/virtualenvs/py2/lib/python2.7/site-packages (from -r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): Tornado-MySQL in /srv/virtualenvs/py2/lib/python2.7/site-packages (from -r requirements.txt (line 2))
+Requirement already satisfied (use --upgrade to upgrade): tornado-redis in /srv/virtualenvs/py2/lib/python2.7/site-packages (from -r requirements.txt (line 3))
+Requirement already satisfied (use --upgrade to upgrade): certifi in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): backports-abc>=0.4 in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): backports.ssl-match-hostname in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): singledispatch in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): six in /srv/virtualenvs/py2/lib/python2.7/site-packages (from singledispatch->tornado->-r requirements.txt (line 1))
+INFO:hackathon.launcher:app launching...
+INFO:root:activated py2 virtualenv
+INFO:hackathon.launcher:execute script: pip install -r requirements.txt
+Requirement already satisfied (use --upgrade to upgrade): tornado in /srv/virtualenvs/py2/lib/python2.7/site-packages (from -r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): Tornado-MySQL in /srv/virtualenvs/py2/lib/python2.7/site-packages (from -r requirements.txt (line 2))
+Requirement already satisfied (use --upgrade to upgrade): tornado-redis in /srv/virtualenvs/py2/lib/python2.7/site-packages (from -r requirements.txt (line 3))
+Requirement already satisfied (use --upgrade to upgrade): certifi in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): backports-abc>=0.4 in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): backports.ssl-match-hostname in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): singledispatch in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): six in /srv/virtualenvs/py2/lib/python2.7/site-packages (from singledispatch->tornado->-r requirements.txt (line 1))
+/srv/virtualenvs/py2/local/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/util/ssl_.py:90: InsecurePlatformWarning: A true SSLContext object is not available. This prevents urllib3 from configuring SSL appropriately and may cause certain SSL connections to fail. For more information, see https://urllib3.readthedocs.org/en/latest/security.html#insecureplatformwarning.
+  InsecurePlatformWarning
+INFO:hackathon.launcher:app launching...
+INFO:root:activated py2 virtualenv
+INFO:hackathon.launcher:execute script: pip install -r requirements.txt
+Requirement already satisfied (use --upgrade to upgrade): tornado in /srv/virtualenvs/py2/lib/python2.7/site-packages (from -r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): Tornado-MySQL in /srv/virtualenvs/py2/lib/python2.7/site-packages (from -r requirements.txt (line 2))
+Requirement already satisfied (use --upgrade to upgrade): tornado-redis in /srv/virtualenvs/py2/lib/python2.7/site-packages (from -r requirements.txt (line 3))
+Requirement already satisfied (use --upgrade to upgrade): certifi in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): backports-abc>=0.4 in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): backports.ssl-match-hostname in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): singledispatch in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): six in /srv/virtualenvs/py2/lib/python2.7/site-packages (from singledispatch->tornado->-r requirements.txt (line 1))
+/srv/virtualenvs/py2/local/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/util/ssl_.py:90: InsecurePlatformWarning: A true SSLContext object is not available. This prevents urllib3 from configuring SSL appropriately and may cause certain SSL connections to fail. For more information, see https://urllib3.readthedocs.org/en/latest/security.html#insecureplatformwarning.
+  InsecurePlatformWarning
+INFO:hackathon.launcher:execute script: python initdb.py
+/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py:294: Warning: Table 'order' already exists
+  Runner(result, future, yielded)
+/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py:294: Warning: Table 'order_item' already exists
+  Runner(result, future, yielded)
+INFO:hackathon.launcher:execute script: python app.py
+INFO:hackathon.launcher:app launching...
+INFO:root:activated py2 virtualenv
+INFO:hackathon.launcher:execute script: pip install -r requirements.txt
+Requirement already satisfied (use --upgrade to upgrade): tornado in /srv/virtualenvs/py2/lib/python2.7/site-packages (from -r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): Tornado-MySQL in /srv/virtualenvs/py2/lib/python2.7/site-packages (from -r requirements.txt (line 2))
+Requirement already satisfied (use --upgrade to upgrade): tornado-redis in /srv/virtualenvs/py2/lib/python2.7/site-packages (from -r requirements.txt (line 3))
+Requirement already satisfied (use --upgrade to upgrade): certifi in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): backports-abc>=0.4 in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): backports.ssl-match-hostname in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): singledispatch in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): six in /srv/virtualenvs/py2/lib/python2.7/site-packages (from singledispatch->tornado->-r requirements.txt (line 1))
+INFO:hackathon.launcher:execute script: python initdb.py
+/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py:294: Warning: Table 'order' already exists
+  Runner(result, future, yielded)
+/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py:294: Warning: Table 'order_item' already exists
+  Runner(result, future, yielded)
+INFO:hackathon.launcher:execute script: python app.py
+INFO:hackathon.launcher:app launching...
+INFO:root:activated py2 virtualenv
+INFO:hackathon.launcher:execute script: pip install -r requirements.txt
+Requirement already satisfied (use --upgrade to upgrade): tornado in /srv/virtualenvs/py2/lib/python2.7/site-packages (from -r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): Tornado-MySQL in /srv/virtualenvs/py2/lib/python2.7/site-packages (from -r requirements.txt (line 2))
+Requirement already satisfied (use --upgrade to upgrade): tornado-redis in /srv/virtualenvs/py2/lib/python2.7/site-packages (from -r requirements.txt (line 3))
+Requirement already satisfied (use --upgrade to upgrade): certifi in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): backports-abc>=0.4 in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): backports.ssl-match-hostname in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): singledispatch in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): six in /srv/virtualenvs/py2/lib/python2.7/site-packages (from singledispatch->tornado->-r requirements.txt (line 1))
+INFO:hackathon.launcher:execute script: python initdb.py
+/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py:294: Warning: Table 'order' already exists
+  Runner(result, future, yielded)
+/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py:294: Warning: Table 'order_item' already exists
+  Runner(result, future, yielded)
+INFO:hackathon.launcher:execute script: python app.py
+INFO:hackathon.launcher:app launching...
+INFO:root:activated py2 virtualenv
+INFO:hackathon.launcher:execute script: pip install -r requirements.txt
+Requirement already satisfied (use --upgrade to upgrade): tornado in /srv/virtualenvs/py2/lib/python2.7/site-packages (from -r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): Tornado-MySQL in /srv/virtualenvs/py2/lib/python2.7/site-packages (from -r requirements.txt (line 2))
+Requirement already satisfied (use --upgrade to upgrade): tornado-redis in /srv/virtualenvs/py2/lib/python2.7/site-packages (from -r requirements.txt (line 3))
+Requirement already satisfied (use --upgrade to upgrade): certifi in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): backports-abc>=0.4 in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): backports.ssl-match-hostname in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): singledispatch in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): six in /srv/virtualenvs/py2/lib/python2.7/site-packages (from singledispatch->tornado->-r requirements.txt (line 1))
+INFO:hackathon.launcher:execute script: python initdb.py
+/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py:294: Warning: Table 'order' already exists
+  Runner(result, future, yielded)
+/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py:294: Warning: Table 'order_item' already exists
+  Runner(result, future, yielded)
+INFO:hackathon.launcher:execute script: python app.py
+INFO:hackathon.launcher:app launching...
+INFO:root:activated py2 virtualenv
+INFO:hackathon.launcher:execute script: pip install -r requirements.txt
+Requirement already satisfied (use --upgrade to upgrade): tornado in /srv/virtualenvs/py2/lib/python2.7/site-packages (from -r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): Tornado-MySQL in /srv/virtualenvs/py2/lib/python2.7/site-packages (from -r requirements.txt (line 2))
+Requirement already satisfied (use --upgrade to upgrade): tornado-redis in /srv/virtualenvs/py2/lib/python2.7/site-packages (from -r requirements.txt (line 3))
+Requirement already satisfied (use --upgrade to upgrade): certifi in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): backports-abc>=0.4 in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): backports.ssl-match-hostname in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): singledispatch in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): six in /srv/virtualenvs/py2/lib/python2.7/site-packages (from singledispatch->tornado->-r requirements.txt (line 1))
+INFO:hackathon.launcher:execute script: python initdb.py
+/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py:294: Warning: Table 'order' already exists
+  Runner(result, future, yielded)
+/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py:294: Warning: Table 'order_item' already exists
+  Runner(result, future, yielded)
+INFO:hackathon.launcher:execute script: python app.py
+INFO:hackathon.launcher:app launching...
+INFO:root:activated py2 virtualenv
+INFO:hackathon.launcher:execute script: pip install -r requirements.txt
+Requirement already satisfied (use --upgrade to upgrade): tornado in /srv/virtualenvs/py2/lib/python2.7/site-packages (from -r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): Tornado-MySQL in /srv/virtualenvs/py2/lib/python2.7/site-packages (from -r requirements.txt (line 2))
+Requirement already satisfied (use --upgrade to upgrade): tornado-redis in /srv/virtualenvs/py2/lib/python2.7/site-packages (from -r requirements.txt (line 3))
+Requirement already satisfied (use --upgrade to upgrade): certifi in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): backports-abc>=0.4 in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): backports.ssl-match-hostname in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): singledispatch in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): six in /srv/virtualenvs/py2/lib/python2.7/site-packages (from singledispatch->tornado->-r requirements.txt (line 1))
+INFO:hackathon.launcher:execute script: python initdb.py
+/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py:294: Warning: Table 'order' already exists
+  Runner(result, future, yielded)
+/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py:294: Warning: Table 'order_item' already exists
+  Runner(result, future, yielded)
+INFO:hackathon.launcher:execute script: python app.py
+INFO:hackathon.launcher:app launching...
+INFO:root:activated py2 virtualenv
+INFO:hackathon.launcher:execute script: pip install -r requirements.txt
+Requirement already satisfied (use --upgrade to upgrade): tornado in /srv/virtualenvs/py2/lib/python2.7/site-packages (from -r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): Tornado-MySQL in /srv/virtualenvs/py2/lib/python2.7/site-packages (from -r requirements.txt (line 2))
+Requirement already satisfied (use --upgrade to upgrade): tornado-redis in /srv/virtualenvs/py2/lib/python2.7/site-packages (from -r requirements.txt (line 3))
+Requirement already satisfied (use --upgrade to upgrade): certifi in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): backports-abc>=0.4 in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): backports.ssl-match-hostname in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): singledispatch in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): six in /srv/virtualenvs/py2/lib/python2.7/site-packages (from singledispatch->tornado->-r requirements.txt (line 1))
+INFO:hackathon.launcher:execute script: python initdb.py
+/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py:294: Warning: Table 'order' already exists
+  Runner(result, future, yielded)
+/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py:294: Warning: Table 'order_item' already exists
+  Runner(result, future, yielded)
+INFO:hackathon.launcher:execute script: python app.py
+INFO:hackathon.launcher:app launching...
+INFO:root:activated py2 virtualenv
+INFO:hackathon.launcher:execute script: pip install -r requirements.txt
+Requirement already satisfied (use --upgrade to upgrade): tornado in /srv/virtualenvs/py2/lib/python2.7/site-packages (from -r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): Tornado-MySQL in /srv/virtualenvs/py2/lib/python2.7/site-packages (from -r requirements.txt (line 2))
+Requirement already satisfied (use --upgrade to upgrade): tornado-redis in /srv/virtualenvs/py2/lib/python2.7/site-packages (from -r requirements.txt (line 3))
+Requirement already satisfied (use --upgrade to upgrade): certifi in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): backports-abc>=0.4 in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): backports.ssl-match-hostname in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): singledispatch in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): six in /srv/virtualenvs/py2/lib/python2.7/site-packages (from singledispatch->tornado->-r requirements.txt (line 1))
+INFO:hackathon.launcher:execute script: python initdb.py
+/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py:294: Warning: Table 'order' already exists
+  Runner(result, future, yielded)
+/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py:294: Warning: Table 'order_item' already exists
+  Runner(result, future, yielded)
+INFO:hackathon.launcher:execute script: python app.py
+INFO:hackathon.launcher:app launching...
+INFO:root:activated py2 virtualenv
+INFO:hackathon.launcher:execute script: pip install -r requirements.txt
+Requirement already satisfied (use --upgrade to upgrade): tornado in /srv/virtualenvs/py2/lib/python2.7/site-packages (from -r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): Tornado-MySQL in /srv/virtualenvs/py2/lib/python2.7/site-packages (from -r requirements.txt (line 2))
+Requirement already satisfied (use --upgrade to upgrade): tornado-redis in /srv/virtualenvs/py2/lib/python2.7/site-packages (from -r requirements.txt (line 3))
+Requirement already satisfied (use --upgrade to upgrade): certifi in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): backports-abc>=0.4 in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): backports.ssl-match-hostname in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): singledispatch in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): six in /srv/virtualenvs/py2/lib/python2.7/site-packages (from singledispatch->tornado->-r requirements.txt (line 1))
+INFO:hackathon.launcher:execute script: python initdb.py
+/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/stack_context.py:275: Warning: Table 'order' already exists
+  return fn(*args, **kwargs)
+/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/stack_context.py:275: Warning: Table 'order_item' already exists
+  return fn(*args, **kwargs)
+INFO:hackathon.launcher:execute script: python app.py
+INFO:hackathon.launcher:app launching...
+INFO:root:activated py2 virtualenv
+INFO:hackathon.launcher:execute script: pip install -r requirements.txt
+Requirement already satisfied (use --upgrade to upgrade): tornado in /srv/virtualenvs/py2/lib/python2.7/site-packages (from -r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): Tornado-MySQL in /srv/virtualenvs/py2/lib/python2.7/site-packages (from -r requirements.txt (line 2))
+Requirement already satisfied (use --upgrade to upgrade): tornado-redis in /srv/virtualenvs/py2/lib/python2.7/site-packages (from -r requirements.txt (line 3))
+Requirement already satisfied (use --upgrade to upgrade): certifi in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): backports-abc>=0.4 in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): backports.ssl-match-hostname in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): singledispatch in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): six in /srv/virtualenvs/py2/lib/python2.7/site-packages (from singledispatch->tornado->-r requirements.txt (line 1))
+INFO:hackathon.launcher:execute script: python initdb.py
+/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py:294: Warning: Table 'order' already exists
+  Runner(result, future, yielded)
+/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py:294: Warning: Table 'order_item' already exists
+  Runner(result, future, yielded)
+INFO:hackathon.launcher:execute script: python app.py
+INFO:hackathon.launcher:app launching...
+INFO:root:activated py2 virtualenv
+INFO:hackathon.launcher:execute script: pip install -r requirements.txt
+Requirement already satisfied (use --upgrade to upgrade): tornado in /srv/virtualenvs/py2/lib/python2.7/site-packages (from -r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): Tornado-MySQL in /srv/virtualenvs/py2/lib/python2.7/site-packages (from -r requirements.txt (line 2))
+Requirement already satisfied (use --upgrade to upgrade): tornado-redis in /srv/virtualenvs/py2/lib/python2.7/site-packages (from -r requirements.txt (line 3))
+Requirement already satisfied (use --upgrade to upgrade): certifi in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): backports-abc>=0.4 in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): backports.ssl-match-hostname in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): singledispatch in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): six in /srv/virtualenvs/py2/lib/python2.7/site-packages (from singledispatch->tornado->-r requirements.txt (line 1))
+INFO:hackathon.launcher:execute script: python initdb.py
+/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py:294: Warning: Table 'order' already exists
+  Runner(result, future, yielded)
+/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py:294: Warning: Table 'order_item' already exists
+  Runner(result, future, yielded)
+INFO:hackathon.launcher:execute script: python app.py
+INFO:hackathon.launcher:app launching...
+INFO:root:activated py2 virtualenv
+INFO:hackathon.launcher:execute script: pip install -r requirements.txt
+Requirement already satisfied (use --upgrade to upgrade): tornado in /srv/virtualenvs/py2/lib/python2.7/site-packages (from -r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): Tornado-MySQL in /srv/virtualenvs/py2/lib/python2.7/site-packages (from -r requirements.txt (line 2))
+Requirement already satisfied (use --upgrade to upgrade): tornado-redis in /srv/virtualenvs/py2/lib/python2.7/site-packages (from -r requirements.txt (line 3))
+Requirement already satisfied (use --upgrade to upgrade): certifi in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): backports-abc>=0.4 in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): backports.ssl-match-hostname in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): singledispatch in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): six in /srv/virtualenvs/py2/lib/python2.7/site-packages (from singledispatch->tornado->-r requirements.txt (line 1))
+INFO:hackathon.launcher:execute script: python initdb.py
+/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py:294: Warning: Table 'order' already exists
+  Runner(result, future, yielded)
+/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py:294: Warning: Table 'order_item' already exists
+  Runner(result, future, yielded)
+INFO:hackathon.launcher:execute script: python app.py
+INFO:hackathon.launcher:app launching...
+INFO:root:activated py2 virtualenv
+INFO:hackathon.launcher:execute script: pip install -r requirements.txt
+Requirement already satisfied (use --upgrade to upgrade): tornado in /srv/virtualenvs/py2/lib/python2.7/site-packages (from -r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): Tornado-MySQL in /srv/virtualenvs/py2/lib/python2.7/site-packages (from -r requirements.txt (line 2))
+Requirement already satisfied (use --upgrade to upgrade): tornado-redis in /srv/virtualenvs/py2/lib/python2.7/site-packages (from -r requirements.txt (line 3))
+Requirement already satisfied (use --upgrade to upgrade): certifi in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): backports-abc>=0.4 in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): backports.ssl-match-hostname in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): singledispatch in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): six in /srv/virtualenvs/py2/lib/python2.7/site-packages (from singledispatch->tornado->-r requirements.txt (line 1))
+INFO:hackathon.launcher:execute script: python initdb.py
+/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py:294: Warning: Table 'order' already exists
+  Runner(result, future, yielded)
+/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py:294: Warning: Table 'order_item' already exists
+  Runner(result, future, yielded)
+INFO:hackathon.launcher:execute script: python app.py
+INFO:hackathon.launcher:app launching...
+INFO:root:activated py2 virtualenv
+INFO:hackathon.launcher:execute script: pip install -r requirements.txt
+Requirement already satisfied (use --upgrade to upgrade): tornado in /srv/virtualenvs/py2/lib/python2.7/site-packages (from -r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): Tornado-MySQL in /srv/virtualenvs/py2/lib/python2.7/site-packages (from -r requirements.txt (line 2))
+Requirement already satisfied (use --upgrade to upgrade): tornado-redis in /srv/virtualenvs/py2/lib/python2.7/site-packages (from -r requirements.txt (line 3))
+Requirement already satisfied (use --upgrade to upgrade): certifi in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): backports-abc>=0.4 in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): backports.ssl-match-hostname in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): singledispatch in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): six in /srv/virtualenvs/py2/lib/python2.7/site-packages (from singledispatch->tornado->-r requirements.txt (line 1))
+INFO:hackathon.launcher:execute script: python initdb.py
+/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py:294: Warning: Table 'order' already exists
+  Runner(result, future, yielded)
+/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py:294: Warning: Table 'order_item' already exists
+  Runner(result, future, yielded)
+INFO:hackathon.launcher:execute script: python app.py
+INFO:hackathon.launcher:app launching...
+INFO:root:activated py2 virtualenv
+INFO:hackathon.launcher:execute script: pip install -r requirements.txt
+Requirement already satisfied (use --upgrade to upgrade): tornado in /srv/virtualenvs/py2/lib/python2.7/site-packages (from -r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): Tornado-MySQL in /srv/virtualenvs/py2/lib/python2.7/site-packages (from -r requirements.txt (line 2))
+Requirement already satisfied (use --upgrade to upgrade): tornado-redis in /srv/virtualenvs/py2/lib/python2.7/site-packages (from -r requirements.txt (line 3))
+Requirement already satisfied (use --upgrade to upgrade): certifi in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): backports-abc>=0.4 in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): backports.ssl-match-hostname in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): singledispatch in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): six in /srv/virtualenvs/py2/lib/python2.7/site-packages (from singledispatch->tornado->-r requirements.txt (line 1))
+INFO:hackathon.launcher:execute script: python initdb.py
+/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py:294: Warning: Table 'order' already exists
+  Runner(result, future, yielded)
+/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py:294: Warning: Table 'order_item' already exists
+  Runner(result, future, yielded)
+INFO:hackathon.launcher:execute script: python app.py
+INFO:hackathon.launcher:app launching...
+INFO:root:activated py2 virtualenv
+INFO:hackathon.launcher:execute script: pip install -r requirements.txt
+Requirement already satisfied (use --upgrade to upgrade): tornado in /srv/virtualenvs/py2/lib/python2.7/site-packages (from -r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): Tornado-MySQL in /srv/virtualenvs/py2/lib/python2.7/site-packages (from -r requirements.txt (line 2))
+Requirement already satisfied (use --upgrade to upgrade): tornado-redis in /srv/virtualenvs/py2/lib/python2.7/site-packages (from -r requirements.txt (line 3))
+Requirement already satisfied (use --upgrade to upgrade): certifi in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): backports-abc>=0.4 in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): backports.ssl-match-hostname in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): singledispatch in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): six in /srv/virtualenvs/py2/lib/python2.7/site-packages (from singledispatch->tornado->-r requirements.txt (line 1))
+INFO:hackathon.launcher:execute script: python initdb.py
+/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py:294: Warning: Table 'order' already exists
+  Runner(result, future, yielded)
+/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py:294: Warning: Table 'order_item' already exists
+  Runner(result, future, yielded)
+INFO:hackathon.launcher:execute script: python app.py
+INFO:hackathon.launcher:app launching...
+INFO:root:activated py2 virtualenv
+INFO:hackathon.launcher:execute script: pip install -r requirements.txt
+Requirement already satisfied (use --upgrade to upgrade): tornado in /srv/virtualenvs/py2/lib/python2.7/site-packages (from -r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): Tornado-MySQL in /srv/virtualenvs/py2/lib/python2.7/site-packages (from -r requirements.txt (line 2))
+Requirement already satisfied (use --upgrade to upgrade): tornado-redis in /srv/virtualenvs/py2/lib/python2.7/site-packages (from -r requirements.txt (line 3))
+Requirement already satisfied (use --upgrade to upgrade): certifi in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): backports-abc>=0.4 in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): backports.ssl-match-hostname in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): singledispatch in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): six in /srv/virtualenvs/py2/lib/python2.7/site-packages (from singledispatch->tornado->-r requirements.txt (line 1))
+INFO:hackathon.launcher:execute script: python initdb.py
+/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py:294: Warning: Table 'order' already exists
+  Runner(result, future, yielded)
+/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py:294: Warning: Table 'order_item' already exists
+  Runner(result, future, yielded)
+INFO:hackathon.launcher:execute script: python app.py
+INFO:hackathon.launcher:app launching...
+INFO:root:activated py2 virtualenv
+INFO:hackathon.launcher:execute script: pip install -r requirements.txt
+Requirement already satisfied (use --upgrade to upgrade): tornado in /srv/virtualenvs/py2/lib/python2.7/site-packages (from -r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): Tornado-MySQL in /srv/virtualenvs/py2/lib/python2.7/site-packages (from -r requirements.txt (line 2))
+Requirement already satisfied (use --upgrade to upgrade): tornado-redis in /srv/virtualenvs/py2/lib/python2.7/site-packages (from -r requirements.txt (line 3))
+Requirement already satisfied (use --upgrade to upgrade): certifi in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): backports-abc>=0.4 in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): backports.ssl-match-hostname in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): singledispatch in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): six in /srv/virtualenvs/py2/lib/python2.7/site-packages (from singledispatch->tornado->-r requirements.txt (line 1))
+INFO:hackathon.launcher:execute script: python initdb.py
+/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py:294: Warning: Table 'order' already exists
+  Runner(result, future, yielded)
+/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py:294: Warning: Table 'order_item' already exists
+  Runner(result, future, yielded)
+INFO:hackathon.launcher:execute script: python app.py
+INFO:hackathon.launcher:app launching...
+INFO:root:activated py2 virtualenv
+INFO:hackathon.launcher:execute script: pip install -r requirements.txt
+Requirement already satisfied (use --upgrade to upgrade): tornado in /srv/virtualenvs/py2/lib/python2.7/site-packages (from -r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): Tornado-MySQL in /srv/virtualenvs/py2/lib/python2.7/site-packages (from -r requirements.txt (line 2))
+Requirement already satisfied (use --upgrade to upgrade): tornado-redis in /srv/virtualenvs/py2/lib/python2.7/site-packages (from -r requirements.txt (line 3))
+Requirement already satisfied (use --upgrade to upgrade): certifi in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): backports-abc>=0.4 in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): backports.ssl-match-hostname in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): singledispatch in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): six in /srv/virtualenvs/py2/lib/python2.7/site-packages (from singledispatch->tornado->-r requirements.txt (line 1))
+INFO:hackathon.launcher:execute script: python initdb.py
+/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py:294: Warning: Table 'order' already exists
+  Runner(result, future, yielded)
+/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py:294: Warning: Table 'order_item' already exists
+  Runner(result, future, yielded)
+INFO:hackathon.launcher:execute script: python app.py
+INFO:hackathon.launcher:app launching...
+INFO:root:activated py2 virtualenv
+INFO:hackathon.launcher:execute script: pip install -r requirements.txt
+Requirement already satisfied (use --upgrade to upgrade): tornado in /srv/virtualenvs/py2/lib/python2.7/site-packages (from -r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): Tornado-MySQL in /srv/virtualenvs/py2/lib/python2.7/site-packages (from -r requirements.txt (line 2))
+Requirement already satisfied (use --upgrade to upgrade): tornado-redis in /srv/virtualenvs/py2/lib/python2.7/site-packages (from -r requirements.txt (line 3))
+Requirement already satisfied (use --upgrade to upgrade): certifi in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): backports-abc>=0.4 in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): backports.ssl-match-hostname in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): singledispatch in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): six in /srv/virtualenvs/py2/lib/python2.7/site-packages (from singledispatch->tornado->-r requirements.txt (line 1))
+INFO:hackathon.launcher:execute script: python initdb.py
+/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py:294: Warning: Table 'order' already exists
+  Runner(result, future, yielded)
+/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py:294: Warning: Table 'order_item' already exists
+  Runner(result, future, yielded)
+INFO:hackathon.launcher:execute script: python app.py
+INFO:hackathon.launcher:app launching...
+INFO:root:activated py2 virtualenv
+INFO:hackathon.launcher:execute script: pip install -r requirements.txt
+Requirement already satisfied (use --upgrade to upgrade): tornado in /srv/virtualenvs/py2/lib/python2.7/site-packages (from -r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): Tornado-MySQL in /srv/virtualenvs/py2/lib/python2.7/site-packages (from -r requirements.txt (line 2))
+Requirement already satisfied (use --upgrade to upgrade): tornado-redis in /srv/virtualenvs/py2/lib/python2.7/site-packages (from -r requirements.txt (line 3))
+Requirement already satisfied (use --upgrade to upgrade): certifi in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): backports-abc>=0.4 in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): backports.ssl-match-hostname in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): singledispatch in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): six in /srv/virtualenvs/py2/lib/python2.7/site-packages (from singledispatch->tornado->-r requirements.txt (line 1))
+INFO:hackathon.launcher:execute script: python initdb.py
+/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py:294: Warning: Table 'order' already exists
+  Runner(result, future, yielded)
+/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py:294: Warning: Table 'order_item' already exists
+  Runner(result, future, yielded)
+INFO:hackathon.launcher:execute script: python app.py
+INFO:hackathon.launcher:app launching...
+INFO:root:activated py2 virtualenv
+INFO:hackathon.launcher:execute script: pip install -r requirements.txt
+Requirement already satisfied (use --upgrade to upgrade): tornado in /srv/virtualenvs/py2/lib/python2.7/site-packages (from -r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): Tornado-MySQL in /srv/virtualenvs/py2/lib/python2.7/site-packages (from -r requirements.txt (line 2))
+Requirement already satisfied (use --upgrade to upgrade): tornado-redis in /srv/virtualenvs/py2/lib/python2.7/site-packages (from -r requirements.txt (line 3))
+Requirement already satisfied (use --upgrade to upgrade): certifi in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): backports-abc>=0.4 in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): backports.ssl-match-hostname in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): singledispatch in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): six in /srv/virtualenvs/py2/lib/python2.7/site-packages (from singledispatch->tornado->-r requirements.txt (line 1))
+INFO:hackathon.launcher:execute script: python initdb.py
+/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py:294: Warning: Table 'order' already exists
+  Runner(result, future, yielded)
+/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py:294: Warning: Table 'order_item' already exists
+  Runner(result, future, yielded)
+INFO:hackathon.launcher:execute script: python app.py
+INFO:hackathon.launcher:app launching...
+INFO:root:activated py2 virtualenv
+INFO:hackathon.launcher:execute script: pip install -r requirements.txt
+Requirement already satisfied (use --upgrade to upgrade): tornado in /srv/virtualenvs/py2/lib/python2.7/site-packages (from -r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): Tornado-MySQL in /srv/virtualenvs/py2/lib/python2.7/site-packages (from -r requirements.txt (line 2))
+Requirement already satisfied (use --upgrade to upgrade): tornado-redis in /srv/virtualenvs/py2/lib/python2.7/site-packages (from -r requirements.txt (line 3))
+Requirement already satisfied (use --upgrade to upgrade): certifi in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): backports-abc>=0.4 in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): backports.ssl-match-hostname in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): singledispatch in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): six in /srv/virtualenvs/py2/lib/python2.7/site-packages (from singledispatch->tornado->-r requirements.txt (line 1))
+INFO:hackathon.launcher:execute script: python initdb.py
+/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py:294: Warning: Table 'order' already exists
+  Runner(result, future, yielded)
+/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py:294: Warning: Table 'order_item' already exists
+  Runner(result, future, yielded)
+INFO:hackathon.launcher:execute script: python app.py
+INFO:hackathon.launcher:app launching...
+INFO:root:activated py2 virtualenv
+INFO:hackathon.launcher:execute script: pip install -r requirements.txt
+Requirement already satisfied (use --upgrade to upgrade): tornado in /srv/virtualenvs/py2/lib/python2.7/site-packages (from -r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): Tornado-MySQL in /srv/virtualenvs/py2/lib/python2.7/site-packages (from -r requirements.txt (line 2))
+Requirement already satisfied (use --upgrade to upgrade): tornado-redis in /srv/virtualenvs/py2/lib/python2.7/site-packages (from -r requirements.txt (line 3))
+Requirement already satisfied (use --upgrade to upgrade): certifi in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): backports-abc>=0.4 in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): backports.ssl-match-hostname in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): singledispatch in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): six in /srv/virtualenvs/py2/lib/python2.7/site-packages (from singledispatch->tornado->-r requirements.txt (line 1))
+INFO:hackathon.launcher:execute script: python initdb.py
+INFO:hackathon.launcher:app launching...
+INFO:root:activated py2 virtualenv
+INFO:hackathon.launcher:execute script: pip install -r requirements.txt
+Requirement already satisfied (use --upgrade to upgrade): tornado in /srv/virtualenvs/py2/lib/python2.7/site-packages (from -r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): Tornado-MySQL in /srv/virtualenvs/py2/lib/python2.7/site-packages (from -r requirements.txt (line 2))
+Requirement already satisfied (use --upgrade to upgrade): tornado-redis in /srv/virtualenvs/py2/lib/python2.7/site-packages (from -r requirements.txt (line 3))
+Requirement already satisfied (use --upgrade to upgrade): certifi in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): backports-abc>=0.4 in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): backports.ssl-match-hostname in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): singledispatch in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): six in /srv/virtualenvs/py2/lib/python2.7/site-packages (from singledispatch->tornado->-r requirements.txt (line 1))
+INFO:hackathon.launcher:execute script: python initdb.py
+/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py:294: Warning: Table 'order' already exists
+  Runner(result, future, yielded)
+/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py:294: Warning: Table 'order_item' already exists
+  Runner(result, future, yielded)
+INFO:hackathon.launcher:execute script: python app.py
+INFO:hackathon.launcher:app launching...
+INFO:root:activated py2 virtualenv
+INFO:hackathon.launcher:execute script: pip install -r requirements.txt
+Requirement already satisfied (use --upgrade to upgrade): tornado in /srv/virtualenvs/py2/lib/python2.7/site-packages (from -r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): Tornado-MySQL in /srv/virtualenvs/py2/lib/python2.7/site-packages (from -r requirements.txt (line 2))
+Requirement already satisfied (use --upgrade to upgrade): tornado-redis in /srv/virtualenvs/py2/lib/python2.7/site-packages (from -r requirements.txt (line 3))
+Requirement already satisfied (use --upgrade to upgrade): certifi in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): backports-abc>=0.4 in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): backports.ssl-match-hostname in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): singledispatch in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): six in /srv/virtualenvs/py2/lib/python2.7/site-packages (from singledispatch->tornado->-r requirements.txt (line 1))
+INFO:hackathon.launcher:execute script: python initdb.py
+/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py:294: Warning: Table 'order' already exists
+  Runner(result, future, yielded)
+/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py:294: Warning: Table 'order_item' already exists
+  Runner(result, future, yielded)
+INFO:hackathon.launcher:execute script: python app.py
+INFO:hackathon.launcher:app launching...
+INFO:root:activated py2 virtualenv
+INFO:hackathon.launcher:execute script: pip install -r requirements.txt
+Requirement already satisfied (use --upgrade to upgrade): tornado in /srv/virtualenvs/py2/lib/python2.7/site-packages (from -r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): Tornado-MySQL in /srv/virtualenvs/py2/lib/python2.7/site-packages (from -r requirements.txt (line 2))
+Requirement already satisfied (use --upgrade to upgrade): tornado-redis in /srv/virtualenvs/py2/lib/python2.7/site-packages (from -r requirements.txt (line 3))
+Requirement already satisfied (use --upgrade to upgrade): certifi in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): backports-abc>=0.4 in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): backports.ssl-match-hostname in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): singledispatch in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): six in /srv/virtualenvs/py2/lib/python2.7/site-packages (from singledispatch->tornado->-r requirements.txt (line 1))
+INFO:hackathon.launcher:execute script: python initdb.py
+/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py:294: Warning: Table 'order' already exists
+  Runner(result, future, yielded)
+/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py:294: Warning: Table 'order_item' already exists
+  Runner(result, future, yielded)
+INFO:hackathon.launcher:execute script: python app.py
+INFO:hackathon.launcher:app launching...
+INFO:root:activated py2 virtualenv
+INFO:hackathon.launcher:execute script: pip install -r requirements.txt
+Requirement already satisfied (use --upgrade to upgrade): tornado in /srv/virtualenvs/py2/lib/python2.7/site-packages (from -r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): Tornado-MySQL in /srv/virtualenvs/py2/lib/python2.7/site-packages (from -r requirements.txt (line 2))
+Requirement already satisfied (use --upgrade to upgrade): tornado-redis in /srv/virtualenvs/py2/lib/python2.7/site-packages (from -r requirements.txt (line 3))
+Requirement already satisfied (use --upgrade to upgrade): certifi in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): backports-abc>=0.4 in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): backports.ssl-match-hostname in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): singledispatch in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): six in /srv/virtualenvs/py2/lib/python2.7/site-packages (from singledispatch->tornado->-r requirements.txt (line 1))
+INFO:hackathon.launcher:execute script: python initdb.py
+/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/stack_context.py:275: Warning: Table 'order' already exists
+  return fn(*args, **kwargs)
+/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py:294: Warning: Table 'order_item' already exists
+  Runner(result, future, yielded)
+INFO:hackathon.launcher:execute script: python app.py
+INFO:hackathon.launcher:app launching...
+INFO:root:activated py2 virtualenv
+INFO:hackathon.launcher:execute script: pip install -r requirements.txt
+Requirement already satisfied (use --upgrade to upgrade): tornado in /srv/virtualenvs/py2/lib/python2.7/site-packages (from -r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): Tornado-MySQL in /srv/virtualenvs/py2/lib/python2.7/site-packages (from -r requirements.txt (line 2))
+Requirement already satisfied (use --upgrade to upgrade): tornado-redis in /srv/virtualenvs/py2/lib/python2.7/site-packages (from -r requirements.txt (line 3))
+Requirement already satisfied (use --upgrade to upgrade): certifi in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): backports-abc>=0.4 in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): backports.ssl-match-hostname in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): singledispatch in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): six in /srv/virtualenvs/py2/lib/python2.7/site-packages (from singledispatch->tornado->-r requirements.txt (line 1))
+INFO:hackathon.launcher:execute script: python initdb.py
+/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py:294: Warning: Table 'order' already exists
+  Runner(result, future, yielded)
+/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py:294: Warning: Table 'order_item' already exists
+  Runner(result, future, yielded)
+INFO:hackathon.launcher:execute script: python app.py
+INFO:hackathon.launcher:app launching...
+INFO:root:activated py2 virtualenv
+INFO:hackathon.launcher:execute script: pip install -r requirements.txt
+Requirement already satisfied (use --upgrade to upgrade): tornado in /srv/virtualenvs/py2/lib/python2.7/site-packages (from -r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): Tornado-MySQL in /srv/virtualenvs/py2/lib/python2.7/site-packages (from -r requirements.txt (line 2))
+Requirement already satisfied (use --upgrade to upgrade): tornado-redis in /srv/virtualenvs/py2/lib/python2.7/site-packages (from -r requirements.txt (line 3))
+Requirement already satisfied (use --upgrade to upgrade): certifi in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): backports-abc>=0.4 in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): backports.ssl-match-hostname in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): singledispatch in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): six in /srv/virtualenvs/py2/lib/python2.7/site-packages (from singledispatch->tornado->-r requirements.txt (line 1))
+INFO:hackathon.launcher:execute script: python initdb.py
+/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py:294: Warning: Table 'order' already exists
+  Runner(result, future, yielded)
+/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py:294: Warning: Table 'order_item' already exists
+  Runner(result, future, yielded)
+INFO:hackathon.launcher:execute script: python app.py
+INFO:hackathon.launcher:app launching...
+INFO:root:activated py2 virtualenv
+INFO:hackathon.launcher:execute script: pip install -r requirements.txt
+Requirement already satisfied (use --upgrade to upgrade): tornado in /srv/virtualenvs/py2/lib/python2.7/site-packages (from -r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): Tornado-MySQL in /srv/virtualenvs/py2/lib/python2.7/site-packages (from -r requirements.txt (line 2))
+Requirement already satisfied (use --upgrade to upgrade): tornado-redis in /srv/virtualenvs/py2/lib/python2.7/site-packages (from -r requirements.txt (line 3))
+Requirement already satisfied (use --upgrade to upgrade): certifi in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): backports-abc>=0.4 in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): backports.ssl-match-hostname in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): singledispatch in /srv/virtualenvs/py2/lib/python2.7/site-packages (from tornado->-r requirements.txt (line 1))
+Requirement already satisfied (use --upgrade to upgrade): six in /srv/virtualenvs/py2/lib/python2.7/site-packages (from singledispatch->tornado->-r requirements.txt (line 1))
+INFO:hackathon.launcher:execute script: python initdb.py
+/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py:294: Warning: Table 'order' already exists
+  Runner(result, future, yielded)
+/srv/virtualenvs/py2/local/lib/python2.7/site-packages/tornado/gen.py:294: Warning: Table 'order_item' already exists
+  Runner(result, future, yielded)
+INFO:hackathon.launcher:execute script: python app.py
